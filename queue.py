@@ -1,3 +1,10 @@
+class Empty(Exception):
+    """
+    Custom exception class
+    """
+    pass
+        
+
 class ArrayQueue:
     """
     FIFO queue implementation using a python list as underlying storage.
